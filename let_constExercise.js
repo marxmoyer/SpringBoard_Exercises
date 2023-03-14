@@ -17,3 +17,9 @@ PI = 42; // error const cant be  reassign
 // What is hoisting?
 // hoisting it the abilty to access a veriable before its declared 
 // because its as if it was defined at the top of the page
+
+
+
+[1,2,3,45,6,7,86,86,4,5,6,43].reduce((max,curNum) =>{
+    return  Math.max(max, curNum);
+})
